@@ -2,16 +2,19 @@
 <html> 
     <body> 
        <form>
-        <h2>Encuesta rapida</h2>
-        Genero: <br>
-        <input type ="radio" name="genero" value ="M"> Masculino <br>
-        <input type ="radio" name="genero" value ="F"> Femenino <br>
-        <input type ="radio" name="genero" value ="O"> OTro <br>
-        Hobbies: <br>
-        <input type ="checkbox" name="hobbie1" value ="musica"> Musica <br>
-        <input type ="checkbox" name="hobbie2" value ="deporte"> Deporte <br>
-        <input type ="checkbox" name="hobbie3" value ="lectura"> Lectura <br>
-        <input type = "submit" value = "Guardar">
+        <h2>Formulario con lista y area de texto</h2>
+        Pais: <br>
+        <select>
+            <option value ="bo">Bolivia</option>
+            <option value ="ar">Argentina</option>
+            <option value ="pe">Peru</option>
+            <option value ="mx">Mexico</option>
+            
+        </select><br><br>
+
+        Comentarios: <br>
+        <textarea rows = "5" cols = "40" placeholder="Escribe tu comentario"></textarea> <br> <br>
+        <input type = "submit" value = "Enviar">
        </form>
     </body> 
 </html>
